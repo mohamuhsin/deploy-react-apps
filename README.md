@@ -1,1 +1,1 @@
-# React + Vite
+# Deployed React App in Firebase Hosting
