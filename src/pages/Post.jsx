@@ -1,6 +1,7 @@
-import { useLoaderData } from 'react-router-dom';
+/* eslint-disable react-refresh/only-export-components */
+import { useLoaderData } from "react-router-dom";
 
-import PostItem from '../components/PostItem';
+import PostItem from "../components/PostItem";
 
 function PostPage() {
   const post = useLoaderData();
@@ -12,5 +13,5 @@ export default PostPage;
 
 export function loader({ params }) {
   const postId = params.id;
-  return fetch('https://jsonplaceholder.typicode.com/posts/' + postId);
+  return fetch("https://jsonplaceholder.typicode.com/posts/" + postId);
 }
