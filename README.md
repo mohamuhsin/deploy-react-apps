@@ -1,1 +1,1 @@
-# Deployed React App in Firebase Hosting
+# Deploying React Apps.
